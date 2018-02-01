@@ -1,6 +1,6 @@
 # Python3 Install
 
-'''
+```
 brew install pytho3
 ==> Summary
 🍺  /usr/local/Cellar/python3/3.6.4_2: 3,593 files, 56.2MB
@@ -8,12 +8,12 @@ brew install pytho3
 python3 --version3
 ython 3.6.4
 
-'''
+```
 
 # Python文法
 ## 算術計算
 
-''' 
+``` python
 >>> 1+2 #和
 3
 >>> 1-2 #差
@@ -24,20 +24,20 @@ ython 3.6.4
 1.4
 >>> 3**2 #累乗
 9
-'''
+```
 
 ## データ型
-'''
+```python
 >>> type (10)
 <class 'int'>
 >>> type (1.21)
 <class 'float'>
 >>> type ("python")
 <class 'str'>
-'''
+```
 
 ## 変数
-'''
+```python
 >>> x = 10
 >>> print(x)
 10
@@ -52,10 +52,10 @@ ython 3.6.4
 >>> z = x * y
 >>> type (z)
 <class 'float'>
-'''
+```
 
 ## リスト
-'''
+```python
 >>> a = [1,2,3,4,5] #リストの作成
 >>> print(a) #リストの中身を出力
 [1, 2, 3, 4, 5]
@@ -81,4 +81,4 @@ ython 3.6.4
 >>> b = ["a","b","c","d"] #文字のリストを作成
 >>> print(b)
 ['a', 'b', 'c', 'd']
-'''
+```
